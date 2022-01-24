@@ -1,0 +1,26 @@
+@media screen and (min-width: 900px) {
+
+    .numbers__item-one{
+        margin-top: 100px;
+        transition: all .5s ease-out;
+        cursor: pointer;
+        
+    }
+    .numbers__item-one:hover{
+        margin-top: 70px;
+        margin-bottom: 30px;
+
+    }
+
+    .numbers__item-two{
+        // margin-top: 100px;
+        margin-bottom: 100px;
+        transition: all .5s ease-out;
+        cursor: pointer;
+    }
+    .numbers__item-two:hover{
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+    
+}

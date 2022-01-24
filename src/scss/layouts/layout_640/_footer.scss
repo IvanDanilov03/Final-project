@@ -1,0 +1,11 @@
+@media (min-width: 640px) {
+    .footer{
+
+        grid-template-areas:  
+        "top0 top0"
+        "cnt0 dst0"
+        "bt0 bt0"
+    ;
+
+    }
+}

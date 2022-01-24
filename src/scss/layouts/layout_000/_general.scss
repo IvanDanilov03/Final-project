@@ -1,0 +1,32 @@
+/*
+@font-face  {
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+    src: url('#{$fontsPath}slick.eot');
+    src: url('.#{$fontsPath}slick.eot?#iefix') format('embedded-opentype'),
+        url('#{$fontsPath}slick.woff') format('woff'),
+        url('#{$fontsPath}slick.ttf') format('truetype'),
+        url('#{$fontsPath}#slick') format('svg');
+}
+*/
+
+html {
+  font-size: $baseFontSize;
+}
+
+body {
+  font-family: $baseFontFamily;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: $maxWidth;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}

@@ -1,0 +1,28 @@
+@media (min-width: 992px){
+    .head-details{
+        padding-left: 60px;
+        padding-right: 30PX;
+        padding-bottom: 50px;
+        h1{
+            font-size: 3.5rem;
+        }
+        h2{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .head__img-box{
+        grid-area: top;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 60px;
+        width: 100%;
+    }
+    .head-details__button-box{
+        font-size: 1.2rem;
+        .head-details__button-box__img-box{
+            width: 70px;
+        }
+    }
+}

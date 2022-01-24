@@ -1,0 +1,56 @@
+
+.numbers{
+    background: url(../i/5numbers/bg3.png) repeat-y bottom right, $purple;
+    img {
+        width: 100%;
+        max-width: 100%;
+      }
+}
+
+.numbers__content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px;
+}
+
+.numbers__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+
+.numbers__item__img-box{
+    width: 50%;
+}
+.numbers__item__title {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: $blue;
+    font-weight: $mediumFontWeight;
+}
+.numbers__item__title-num{
+    color: $purple;
+    font-weight: $boldFontWeight;
+    font-size: 2rem;
+}
+.numbers__item__content {
+    text-align: center;
+    order: 1;
+    margin: 1rem 0;
+    &num{
+        color: $purple;
+    }
+
+}
+// #numbers__item__title-num{
+//     color: $purple;
+// }

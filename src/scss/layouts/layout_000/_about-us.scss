@@ -1,0 +1,34 @@
+.about-us{
+    display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  padding-bottom: 50px;
+  align-items: center;
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.about-us__title{
+    @include head-square();
+}
+
+.about-us__details__button-box{
+    @include button-box();
+}
+.about-us__details__button-box__img-box{
+    @include button-box__img();
+}
+
+.about-us__details__content-main{
+    @include title();
+    text-align: center;
+}
+
+.about-us-ceo__img-box{
+    width: 30%;
+}
+.about-us__details__content-other{
+    @include main_text();
+}

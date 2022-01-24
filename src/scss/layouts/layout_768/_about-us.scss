@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    .about-us {
+        grid-template-areas: 
+            "top1 top1" 
+            "ctp1 ctp2";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        h1{
+            font-size: 1.5rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .about-us__details-title{
+        grid-area: top1;
+        justify-items: center;
+        margin: auto;
+
+    }
+    .about-us__img-box{
+        grid-area: ctp1;
+        width: 80%;
+    }
+    .about-us__details{
+        grid-area: ctp2;
+    }
+    .about-us__details__content-main{
+        text-align: left;
+    }
+    
+}

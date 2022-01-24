@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    .head {
+        grid-template-areas:  
+            "cta1 top";
+            grid-template-columns: 1fr 1fr;
+        }
+        
+    .head__img-box{
+        grid-area: top;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .head-details{
+        grid-area: cta1;
+        padding-left: 10px;
+        padding-bottom: 50px;
+        h1{
+            font-size: 2.5rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+
+    }
+    .head-details__text-box{
+        padding-bottom: 30px;
+    }
+    .head-details__button-box{
+        font-size: 1rem;
+        .head-details__button-box__img-box{
+            width: 50px;
+        }
+    }
+}

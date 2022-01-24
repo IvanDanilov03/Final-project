@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    .footer{
+
+        grid-template-areas:  
+        "top0 top0"
+        "bt0 cnt0" 
+        "bt0 dst0"
+        '. .'
+    ;
+    padding-bottom: 30px;
+
+    }
+}

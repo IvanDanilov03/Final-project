@@ -1,0 +1,41 @@
+@media (min-width: 992px) {
+    .about-us {
+        grid-template-areas: 
+            "ctp1 top1" 
+            "ctp1 ctp2";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: start;
+        h1{
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+
+    }
+    .about-us__details-title{
+        grid-area: top1;
+        margin-left: 0;
+        margin-bottom: 0;
+        .about-us__title{
+            width: 200px;
+
+        }
+    }
+
+    .about-us__img-box{
+        grid-area: ctp1;
+        width: 90%;
+    }
+    .about-us__details{
+        grid-area: ctp2;
+        padding-top: 0;
+        justify-items: flex-start;
+
+    }
+    
+}
